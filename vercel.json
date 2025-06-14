@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://your-backend.up.railway.app/api/:match*"
+    },
+    {
+      "source": "/pairing/:match*",
+      "destination": "https://your-backend.up.railway.app/pairing/:match*"
+    }
+  ]
+}
